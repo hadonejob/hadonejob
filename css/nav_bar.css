@@ -1,0 +1,33 @@
+/*
+JoePettersson.com - Black demo bar
+Wow, you actually came far enough down the rabbit hole to read this? I'm impressed.
+*/
+
+/***** Global Elements *****/
+html, body { border:0; margin:0; padding:0; }
+body { font:12px Arial, Helvetica, sans-serif;}
+
+img { border:0;}
+a img { border:0 }
+
+a, a:link, a:visited { text-decoration:underline;}
+a:hover {text-decoration: none;}
+
+/***** Global Classes *****/
+.clear:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+html[xmlns] .clear { display: block;}
+* html .clear { height: 1%;}
+
+.leftAlig { float:left; }
+.rightAlig { float:right; }
+
+/* Demo Bar Classes */
+
+#demoBar {height: 44px; background: #444; font-family: Arial, Helvetica, sans serif; width: 100%;}
+#demoBar .leftAlig, #demoBar .rightAlig {border: 0px!important; text-align: left;}
+#demoBar p a {color: #fff!important; text-decoration: none; padding: 10px 15px; display: block; font-size: 20px; background: #444444; font-family: Georgia, Times New Roman, serif; font-style: italic;}
+#demoBar p a:hover {background: #000; color: #fff!important;}
+#demoBar p {font-size: 20px; margin: 0px; line-height: 24px;}
+
+#demoBar .rightAlig {position: relative;}
+#demoBar .leftAlig {padding-right: 0px!important;}

@@ -1,0 +1,96 @@
+#popOverlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:9999;
+    background-color:black;
+    opacity:0.85;
+}
+
+#popBox {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    text-align: center;
+    line-height: 0;
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-weight: normal;
+}
+
+.shareButtons {
+    display: inline;
+}
+
+.share-buttons {
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    width: 200px;
+    padding: 0px;
+    background-color: white;
+    opacity: 1;
+    display: none;
+}
+
+.fb-button {
+    position: absolute;
+    width: 33.3%;
+    top: 0px;
+    padding: 2px;
+    left: 2px;
+}
+
+.tw-button {
+    position: absolute;
+    width: 33.3%;
+    top: 0px;
+    padding: 2px;
+    left: 67px;
+}
+
+.plus-button {
+    position: absolute;
+    width: 33.3%;
+    top: 0px;
+    padding: 2px;
+    left: 132px;
+}
+
+.popBottom {
+    content: "";
+    width: 500px;
+    height: 30px;
+    margin-left: 30%;
+    display: table;
+    clear: both;
+}
+
+.popCloseImg {
+    position: absolute;
+    width: 30px;
+    cursor: pointer;
+    top: 0px;
+    right: 0px;
+}
+
+.fb_button {
+    position: absolute;
+    bottom: 1%;
+    height: 5%;
+    left: 40%;
+}
+
+.tw_button {
+    position: absolute;
+    bottom: 1%;
+    height: 5%;
+    left: 50%;
+}
+
+.plus_button {
+    position: absolute;
+    bottom: 1%;
+    height: 5%;
+    left: 60%;
+}
