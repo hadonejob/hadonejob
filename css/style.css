@@ -12,7 +12,7 @@ margin: 0;
  * Grid items
  */
 #tiles li {
-width: 200px;
+width: 160px;
 background-color: #ffffff;
 border: 1px solid #dedede;
 -moz-border-radius: 2px;

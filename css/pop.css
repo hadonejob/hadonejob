@@ -26,11 +26,15 @@
     position: absolute;
     top: 0px;
     left: 4px;
-    width: 200px;
+    width: 160px;
     padding: 0px;
     background-color: white;
     opacity: 1;
     display: none;
+}
+
+.center-buttons {
+ left: 30px;
 }
 
 .fb-button {
