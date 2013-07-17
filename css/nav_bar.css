@@ -13,6 +13,8 @@ a img { border:0 }
 a, a:link, a:visited { text-decoration:underline;}
 a:hover {text-decoration: none;}
 
+.imagehover img:hover{opacity: 0.75;}
+
 /***** Global Classes *****/
 .clear:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
 html[xmlns] .clear { display: block;}
